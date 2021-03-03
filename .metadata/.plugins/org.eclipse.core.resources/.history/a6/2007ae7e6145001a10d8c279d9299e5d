@@ -1,0 +1,65 @@
+package AssignOne;
+
+public class Hotel 
+{
+	private String hotelName;
+	private Room[] rooms;
+	
+	// constructors
+	
+	public Hotel(Room[] r, String hotelName)
+	{
+		this.hotelName = hotelName;
+		this.rooms = new Room[r.length]; // initialize the array of type Room
+		
+		// create deep copy of input array
+		
+		for (int i = 0; i < r.length; i++)
+		{
+			this.rooms[i] = new Room(r[i]); // use Room(Room a) constructor to initialize the new object's fields using the same field values (therefore deep copy).}
+	
+		}
+	}	
+	// custom methods
+	
+	public int reserveRoom(String rType)
+	{
+		Room a = Room.findAvailableRoom(this.rooms, rType);
+		if(a == null)
+		{
+			throw new IllegalArgumentException ("No available rooms");
+		}
+		else 
+		{
+		a.changeAvailability();
+		return a.getPrice();
+		}
+	}
+	
+	public boolean cancelRoom(String rType)
+	{
+		boolean a = Room.makeRoomAvailable(this.rooms, rType);
+		return a;
+	}
+
+	
+	// test
+	/*public static void main(String[] args)
+	{
+		Room[] b = new Room[4];
+		b[0] = new Room("queen");
+		b[1] = new Room("king");
+		b[2] = new Room("double");
+		b[3] = new Room("king");
+		
+		Hotel nice = new Hotel(b, "hyatt");
+		int fee = nice.reserveRoom("queen"); 
+		
+		
+
+		
+		
+		
+		
+	}*/
+}

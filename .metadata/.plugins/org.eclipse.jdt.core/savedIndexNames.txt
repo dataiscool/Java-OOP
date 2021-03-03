@@ -1,0 +1,10 @@
+INDEX VERSION 1.131+/Users/muchderek/eclipse-workspace/.metadata/.plugins/org.eclipse.jdt.core
+3759954332.index
+195575231.index
+2297295398.index
+2341425526.index
+1517987751.index
+4236796384.index
+3251566860.index
+300196764.index
+1726190346.index

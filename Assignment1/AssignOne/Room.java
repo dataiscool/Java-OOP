@@ -1,0 +1,145 @@
+package AssignOne;
+
+public class Room 
+{
+	// fields
+	private String roomType;
+	private int roomPrice;
+	private boolean roomDisp;
+	
+	// Constructor
+	public Room(String roomType)
+	{
+		if(roomType.equalsIgnoreCase("double"))
+		{
+			this.roomPrice = 9000;
+			this.roomType = "double";
+		}
+		else if(roomType.equalsIgnoreCase("queen"))
+		{
+			this.roomPrice = 11000;
+			this.roomType = "queen";
+		}
+		else if(roomType.equalsIgnoreCase("king"))
+		{
+			this.roomPrice = 15000;
+			this.roomType = "king";
+		}
+		else
+		{
+			throw new IllegalArgumentException("Please select between double, queen or king");
+		}
+		this.roomDisp = true;
+	}
+	
+	public Room(Room a) // use this to create deep copy
+	{
+		this.roomType = a.roomType;
+		this.roomPrice = a.roomPrice;
+		this.roomDisp = a.roomDisp;
+		
+	}
+	
+	// get/set methods
+	public String getType()
+	{
+		return this.roomType;
+	}
+	
+	public int getPrice()
+	{
+		return this.roomPrice;
+	}
+	
+	// custom methods
+	public void changeAvailability()
+	{
+		if(this.roomDisp == true)
+		{
+		this.roomDisp = false;
+		}
+		else
+		{
+			this.roomDisp = true;
+		}
+	}
+	
+	public static Room findAvailableRoom(Room[] r, String rType)
+	{
+		int count = 0;
+		int inc = 0;
+		
+		for (int i = 0; i < r.length; i++)
+		{
+			//System.out.println("I am here");
+			if((r[i].roomType.equalsIgnoreCase(rType)) && (r[i].roomDisp))
+				{
+				//System.out.println("I am here2\n");
+				inc = i;
+				count = 1;
+				break;
+				}
+		}
+		if (count == 0)
+		{
+			return null;
+		}
+		else 
+		{
+			return r[inc];
+		}
+	}
+	
+	public static boolean makeRoomAvailable(Room[] r, String rType)
+	{
+		int count = 0;
+		
+		for (int i = 0; i < r.length; i++)
+		{
+			if(r[i].roomDisp == false && r[i].roomType.equalsIgnoreCase(rType))
+			{
+				r[i].roomDisp = true;
+						count = 1;
+						break;
+			}
+		}
+		if(count == 0) {
+			return false;
+		}
+		else {
+			return true;
+		}
+	}
+
+	/* public static void main(String[] args)
+	{
+		Room r = new Room("queen");
+		System.out.println(r.roomPrice);
+		System.out.println(r.roomDisp);
+		
+		Room[] b = new Room[4];
+		b[0] = new Room("queen");
+		b[1] = new Room("king");
+		b[2] = new Room("double");
+		b[3] = new Room("king");
+		
+		System.out.println("Room array size is: "+ b.length);
+		System.out.println("Room [0] availability is: "+ b[0].roomDisp);
+		
+		boolean d = makeRoomAvailable(b, "queen");
+		Room c = findAvailableRoom(b,"queen");
+		System.out.println("Make room available operation: "+d+"\nI found the following room:\nBed type: " + c.getType() + "\nRoom price:  " + c.getPrice() + " cents\nRoom availability: " + c.roomDisp);
+		// use getters from another class. can use object to call if within same class.
+		System.out.println(b[0].roomDisp);
+		
+		// create copy
+		Room abc = new Room("queen");
+		Room cde = new Room(abc);
+		cde.roomDisp = false;
+		System.out.println(cde.roomDisp);
+		System.out.println("Observe that changing cde room does not change abc room: "+abc.roomDisp);
+		
+		//Room qwert = new Room()
+	} */
+
+}

@@ -1,0 +1,40 @@
+package AssignOne;
+
+public class BnBReservation extends HotelReservation 
+{
+	// no fields
+	
+	// constructors
+	public BnBReservation(String name, Hotel place, String roomType, int numNights)
+	{
+		super(name, place, roomType, numNights); // re-use code from HotelReservation
+	}
+	
+	/* If the reservation is bed and breakfast,
+	 * reuse HotelReservation (superclass), but we want instead the cost of adding breakfast (override it as below)
+	 */
+	
+	// getter
+	public int getCost()
+	{ 
+		int costBeforeBF = super.getCost();
+		return costBeforeBF+1000*getNumOfNights();
+	}
+	
+	/* public static void main(String[] args)
+	{
+		Room[] ritz = new Room[4];
+		ritz[0] = new Room("queen");
+		ritz[1] = new Room("double");
+		ritz[2] = new Room("king");
+		ritz[3] = new Room("queen");
+		
+		Hotel Ritz = new Hotel(ritz, "Ritz-Carlton");
+		
+		BnBReservation a = new BnBReservation("John", Ritz, "double", 2);
+		System.out.println("I am here");
+		int total = a.getCost();
+		System.out.println(total);
+	} */
+
+}

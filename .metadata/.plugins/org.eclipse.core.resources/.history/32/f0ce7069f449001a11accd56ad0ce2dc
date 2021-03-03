@@ -1,0 +1,105 @@
+package AssignOne;
+
+public class Customer 
+{
+	// fields
+	private String customerName;
+	private int balance;
+	private Basket reservations;
+	
+	// constructors
+	public Customer(String customerNameIn, int balanceIn)
+	{
+		reservations = new Basket();
+		
+		this.customerName = customerNameIn;
+		this.balance = balanceIn;
+	}
+	
+	// accessors
+	public String getName()
+	{
+		return customerName;
+	}
+	
+	public int getBalance()
+	{
+		return balance;
+	}
+	
+	public Basket getBasket()
+	{
+		return reservations; // returns the reference
+	}
+	
+	// custom methods
+	public int addFunds(int extra)
+	{
+		if (extra < 0)
+		{
+			throw new IllegalArgumentException ("Cannot deduct from balance");
+		}
+		else
+		{
+			balance = balance + extra;
+		}
+		return balance; // in cents
+	}
+	
+	public int addToBasket(Reservation r)
+	{
+		if(this.customerName.equals(r.reservationName()))
+		{
+			this.reservations.add(r);
+			return this.reservations.getNumOfReservations();
+		}
+		else
+		{
+			throw new IllegalArgumentException ("Name does not match reservation");
+		}
+	}
+	
+	public int addToBasket(Hotel place, String roomType, int numOfNights, boolean breakfastOption)
+	{
+		// Use HotelReservation if no breakfast; use BnBReservation if yes breakfast
+		
+		if (breakfastOption == false)
+		{
+			Reservation newHotelResEntry =  new HotelReservation(this.customerName, place, roomType, numOfNights);
+			this.reservations.add(newHotelResEntry);
+		}
+		else
+		{
+			Reservation newBnBResEntry = new BnBReservation(this.customerName, place, roomType, numOfNights);
+			this.reservations.add(newBnBResEntry);
+		}
+		return this.reservations.getNumOfReservations();
+	}
+	
+	public int addToBasket(Airport a, Airport b)
+	{
+		Reservation newFlightResEntry = new FlightReservation(this.customerName, a, b);
+		this.reservations.add(newFlightResEntry);
+		return this.reservations.getNumOfReservations();
+	}
+	
+	public boolean removeFromBasket(Reservation removedEntry)
+	{
+		return this.reservations.remove(removedEntry);
+	}
+	
+	public int checkOut()
+	{
+		if(this.balance < reservations.getTotalCost())
+		{
+			throw new IllegalStateException ("Insufficient funds");
+		}
+		else
+		{
+			this.balance = this.balance - reservations.getTotalCost();
+			this.reservations = new Basket();
+			return this.balance;
+		}
+	}
+
+}

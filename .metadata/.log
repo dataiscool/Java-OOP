@@ -1,0 +1,2234 @@
+!SESSION 2020-12-16 15:55:36.672 -----------------------------------------------
+eclipse.buildId=4.14.0.I20191210-0610
+java.version=13.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_CA
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/muchderek/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/muchderek/.eclipse_keyring
+
+This is a continuation of log file /Users/muchderek/eclipse-workspace/.metadata/.bak_0.log
+Created Time: 2020-12-19 00:01:47.377
+
+!ENTRY org.eclipse.ui 4 0 2020-12-19 00:01:47.378
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.swt.graphics.Image.internal_new_GC(Image.java:1598)
+	at org.eclipse.swt.graphics.GC.<init>(GC.java:262)
+	at org.eclipse.swt.graphics.GC.<init>(GC.java:223)
+	at org.eclipse.jface.text.source.LineNumberRulerColumn.doubleBufferPaint(LineNumberRulerColumn.java:693)
+	at org.eclipse.jface.text.source.LineNumberRulerColumn.lambda$2(LineNumberRulerColumn.java:619)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:234)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4406)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1512)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1535)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1520)
+	at org.eclipse.swt.widgets.Control.drawWidget(Control.java:1278)
+	at org.eclipse.swt.widgets.Canvas.drawWidget(Canvas.java:176)
+	at org.eclipse.swt.widgets.Widget.drawRect(Widget.java:776)
+	at org.eclipse.swt.widgets.Canvas.drawRect(Canvas.java:170)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6043)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSendSuper(Native Method)
+	at org.eclipse.swt.widgets.Display.applicationNextEventMatchingMask(Display.java:5284)
+	at org.eclipse.swt.widgets.Display.applicationProc(Display.java:5716)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend(Native Method)
+	at org.eclipse.swt.internal.cocoa.NSApplication.nextEventMatchingMask(NSApplication.java:97)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3804)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1049)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:660)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:559)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:154)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:150)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+
+!ENTRY org.eclipse.ui 4 0 2020-12-19 00:01:47.386
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.swt.graphics.Image.internal_new_GC(Image.java:1598)
+	at org.eclipse.swt.graphics.GC.<init>(GC.java:262)
+	at org.eclipse.swt.graphics.GC.<init>(GC.java:223)
+	at org.eclipse.jface.text.source.AnnotationRulerColumn.doubleBufferPaint(AnnotationRulerColumn.java:539)
+	at org.eclipse.jface.text.source.AnnotationRulerColumn.lambda$1(AnnotationRulerColumn.java:274)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:234)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4406)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1512)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1535)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1520)
+	at org.eclipse.swt.widgets.Control.drawWidget(Control.java:1278)
+	at org.eclipse.swt.widgets.Canvas.drawWidget(Canvas.java:176)
+	at org.eclipse.swt.widgets.Widget.drawRect(Widget.java:776)
+	at org.eclipse.swt.widgets.Canvas.drawRect(Canvas.java:170)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6043)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSendSuper(Native Method)
+	at org.eclipse.swt.widgets.Display.applicationNextEventMatchingMask(Display.java:5284)
+	at org.eclipse.swt.widgets.Display.applicationProc(Display.java:5716)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend(Native Method)
+	at org.eclipse.swt.internal.cocoa.NSApplication.nextEventMatchingMask(NSApplication.java:97)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3804)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1049)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:660)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:559)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:154)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:150)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+
+!ENTRY org.eclipse.ui 4 0 2020-12-19 00:01:47.397
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.swt.graphics.Image.internal_new_GC(Image.java:1598)
+	at org.eclipse.swt.graphics.GC.<init>(GC.java:262)
+	at org.eclipse.swt.graphics.GC.<init>(GC.java:223)
+	at org.eclipse.jface.text.source.AnnotationRulerColumn.doubleBufferPaint(AnnotationRulerColumn.java:539)
+	at org.eclipse.jface.text.source.AnnotationRulerColumn.lambda$1(AnnotationRulerColumn.java:274)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:234)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4406)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1512)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1535)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1520)
+	at org.eclipse.swt.widgets.Control.drawWidget(Control.java:1278)
+	at org.eclipse.swt.widgets.Canvas.drawWidget(Canvas.java:176)
+	at org.eclipse.swt.widgets.Widget.drawRect(Widget.java:776)
+	at org.eclipse.swt.widgets.Canvas.drawRect(Canvas.java:170)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6043)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSendSuper(Native Method)
+	at org.eclipse.swt.widgets.Display.applicationNextEventMatchingMask(Display.java:5284)
+	at org.eclipse.swt.widgets.Display.applicationProc(Display.java:5716)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend(Native Method)
+	at org.eclipse.swt.internal.cocoa.NSApplication.nextEventMatchingMask(NSApplication.java:97)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3804)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1049)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:660)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:559)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:154)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:150)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+
+!ENTRY org.eclipse.ui 4 0 2020-12-19 00:01:48.012
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.swt.graphics.Image.internal_new_GC(Image.java:1598)
+	at org.eclipse.swt.graphics.GC.<init>(GC.java:262)
+	at org.eclipse.swt.graphics.GC.<init>(GC.java:223)
+	at org.eclipse.jface.text.source.OverviewRuler.doubleBufferPaint(OverviewRuler.java:682)
+	at org.eclipse.jface.text.source.OverviewRuler.lambda$1(OverviewRuler.java:592)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:234)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4406)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1512)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1535)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1520)
+	at org.eclipse.swt.widgets.Control.drawWidget(Control.java:1278)
+	at org.eclipse.swt.widgets.Canvas.drawWidget(Canvas.java:176)
+	at org.eclipse.swt.widgets.Widget.drawRect(Widget.java:776)
+	at org.eclipse.swt.widgets.Canvas.drawRect(Canvas.java:170)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6043)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSendSuper(Native Method)
+	at org.eclipse.swt.widgets.Display.applicationNextEventMatchingMask(Display.java:5284)
+	at org.eclipse.swt.widgets.Display.applicationProc(Display.java:5716)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend(Native Method)
+	at org.eclipse.swt.internal.cocoa.NSApplication.nextEventMatchingMask(NSApplication.java:97)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3804)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1049)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:660)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:559)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:154)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:150)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+
+!ENTRY org.eclipse.ui 4 0 2020-12-19 00:01:48.017
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.swt.graphics.Image.internal_new_GC(Image.java:1598)
+	at org.eclipse.swt.graphics.GC.<init>(GC.java:262)
+	at org.eclipse.swt.graphics.GC.<init>(GC.java:223)
+	at org.eclipse.jface.text.source.LineNumberRulerColumn.doubleBufferPaint(LineNumberRulerColumn.java:693)
+	at org.eclipse.jface.text.source.LineNumberRulerColumn.lambda$2(LineNumberRulerColumn.java:619)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:234)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4406)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1512)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1535)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1520)
+	at org.eclipse.swt.widgets.Control.drawWidget(Control.java:1278)
+	at org.eclipse.swt.widgets.Canvas.drawWidget(Canvas.java:176)
+	at org.eclipse.swt.widgets.Widget.drawRect(Widget.java:776)
+	at org.eclipse.swt.widgets.Canvas.drawRect(Canvas.java:170)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6043)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSendSuper(Native Method)
+	at org.eclipse.swt.widgets.Display.applicationNextEventMatchingMask(Display.java:5284)
+	at org.eclipse.swt.widgets.Display.applicationProc(Display.java:5716)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend(Native Method)
+	at org.eclipse.swt.internal.cocoa.NSApplication.nextEventMatchingMask(NSApplication.java:97)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3804)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1049)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:660)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:559)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:154)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:150)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+
+!ENTRY org.eclipse.ui 4 0 2020-12-19 00:01:48.025
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.swt.graphics.Image.internal_new_GC(Image.java:1598)
+	at org.eclipse.swt.graphics.GC.<init>(GC.java:262)
+	at org.eclipse.swt.graphics.GC.<init>(GC.java:223)
+	at org.eclipse.jface.text.source.AnnotationRulerColumn.doubleBufferPaint(AnnotationRulerColumn.java:539)
+	at org.eclipse.jface.text.source.AnnotationRulerColumn.lambda$1(AnnotationRulerColumn.java:274)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:234)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4406)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1512)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1535)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1520)
+	at org.eclipse.swt.widgets.Control.drawWidget(Control.java:1278)
+	at org.eclipse.swt.widgets.Canvas.drawWidget(Canvas.java:176)
+	at org.eclipse.swt.widgets.Widget.drawRect(Widget.java:776)
+	at org.eclipse.swt.widgets.Canvas.drawRect(Canvas.java:170)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6043)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSendSuper(Native Method)
+	at org.eclipse.swt.widgets.Display.applicationNextEventMatchingMask(Display.java:5284)
+	at org.eclipse.swt.widgets.Display.applicationProc(Display.java:5716)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend(Native Method)
+	at org.eclipse.swt.internal.cocoa.NSApplication.nextEventMatchingMask(NSApplication.java:97)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3804)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1049)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:660)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:559)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:154)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:150)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+
+!ENTRY org.eclipse.ui 4 0 2020-12-19 00:01:48.031
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.swt.graphics.Image.internal_new_GC(Image.java:1598)
+	at org.eclipse.swt.graphics.GC.<init>(GC.java:262)
+	at org.eclipse.swt.graphics.GC.<init>(GC.java:223)
+	at org.eclipse.jface.text.source.AnnotationRulerColumn.doubleBufferPaint(AnnotationRulerColumn.java:539)
+	at org.eclipse.jface.text.source.AnnotationRulerColumn.lambda$1(AnnotationRulerColumn.java:274)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:234)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4406)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1512)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1535)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1520)
+	at org.eclipse.swt.widgets.Control.drawWidget(Control.java:1278)
+	at org.eclipse.swt.widgets.Canvas.drawWidget(Canvas.java:176)
+	at org.eclipse.swt.widgets.Widget.drawRect(Widget.java:776)
+	at org.eclipse.swt.widgets.Canvas.drawRect(Canvas.java:170)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6043)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSendSuper(Native Method)
+	at org.eclipse.swt.widgets.Display.applicationNextEventMatchingMask(Display.java:5284)
+	at org.eclipse.swt.widgets.Display.applicationProc(Display.java:5716)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend(Native Method)
+	at org.eclipse.swt.internal.cocoa.NSApplication.nextEventMatchingMask(NSApplication.java:97)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3804)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1049)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:660)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:559)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:154)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:150)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+
+!ENTRY org.eclipse.ui 4 0 2020-12-19 00:01:48.105
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.swt.graphics.Image.internal_new_GC(Image.java:1598)
+	at org.eclipse.swt.graphics.GC.<init>(GC.java:262)
+	at org.eclipse.swt.graphics.GC.<init>(GC.java:223)
+	at org.eclipse.jface.text.source.OverviewRuler.doubleBufferPaint(OverviewRuler.java:682)
+	at org.eclipse.jface.text.source.OverviewRuler.lambda$1(OverviewRuler.java:592)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:234)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4406)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1512)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1535)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1520)
+	at org.eclipse.swt.widgets.Control.drawWidget(Control.java:1278)
+	at org.eclipse.swt.widgets.Canvas.drawWidget(Canvas.java:176)
+	at org.eclipse.swt.widgets.Widget.drawRect(Widget.java:776)
+	at org.eclipse.swt.widgets.Canvas.drawRect(Canvas.java:170)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6043)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSendSuper(Native Method)
+	at org.eclipse.swt.widgets.Display.applicationNextEventMatchingMask(Display.java:5284)
+	at org.eclipse.swt.widgets.Display.applicationProc(Display.java:5716)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend(Native Method)
+	at org.eclipse.swt.internal.cocoa.NSApplication.nextEventMatchingMask(NSApplication.java:97)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3804)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1049)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:660)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:559)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:154)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:150)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+
+!ENTRY org.eclipse.ui 4 0 2020-12-19 00:01:48.109
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.swt.graphics.Image.internal_new_GC(Image.java:1598)
+	at org.eclipse.swt.graphics.GC.<init>(GC.java:262)
+	at org.eclipse.swt.graphics.GC.<init>(GC.java:223)
+	at org.eclipse.jface.text.source.LineNumberRulerColumn.doubleBufferPaint(LineNumberRulerColumn.java:693)
+	at org.eclipse.jface.text.source.LineNumberRulerColumn.lambda$2(LineNumberRulerColumn.java:619)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:234)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4406)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1512)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1535)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1520)
+	at org.eclipse.swt.widgets.Control.drawWidget(Control.java:1278)
+	at org.eclipse.swt.widgets.Canvas.drawWidget(Canvas.java:176)
+	at org.eclipse.swt.widgets.Widget.drawRect(Widget.java:776)
+	at org.eclipse.swt.widgets.Canvas.drawRect(Canvas.java:170)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6043)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSendSuper(Native Method)
+	at org.eclipse.swt.widgets.Display.applicationNextEventMatchingMask(Display.java:5284)
+	at org.eclipse.swt.widgets.Display.applicationProc(Display.java:5716)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend(Native Method)
+	at org.eclipse.swt.internal.cocoa.NSApplication.nextEventMatchingMask(NSApplication.java:97)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3804)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1049)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:660)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:559)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:154)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:150)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+
+!ENTRY org.eclipse.ui 4 0 2020-12-19 00:01:48.112
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.swt.graphics.Image.internal_new_GC(Image.java:1598)
+	at org.eclipse.swt.graphics.GC.<init>(GC.java:262)
+	at org.eclipse.swt.graphics.GC.<init>(GC.java:223)
+	at org.eclipse.jface.text.source.AnnotationRulerColumn.doubleBufferPaint(AnnotationRulerColumn.java:539)
+	at org.eclipse.jface.text.source.AnnotationRulerColumn.lambda$1(AnnotationRulerColumn.java:274)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:234)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4406)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1512)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1535)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1520)
+	at org.eclipse.swt.widgets.Control.drawWidget(Control.java:1278)
+	at org.eclipse.swt.widgets.Canvas.drawWidget(Canvas.java:176)
+	at org.eclipse.swt.widgets.Widget.drawRect(Widget.java:776)
+	at org.eclipse.swt.widgets.Canvas.drawRect(Canvas.java:170)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6043)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSendSuper(Native Method)
+	at org.eclipse.swt.widgets.Display.applicationNextEventMatchingMask(Display.java:5284)
+	at org.eclipse.swt.widgets.Display.applicationProc(Display.java:5716)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend(Native Method)
+	at org.eclipse.swt.internal.cocoa.NSApplication.nextEventMatchingMask(NSApplication.java:97)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3804)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1049)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:660)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:559)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:154)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:150)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+
+!ENTRY org.eclipse.ui 4 0 2020-12-19 00:01:48.116
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.swt.graphics.Image.internal_new_GC(Image.java:1598)
+	at org.eclipse.swt.graphics.GC.<init>(GC.java:262)
+	at org.eclipse.swt.graphics.GC.<init>(GC.java:223)
+	at org.eclipse.jface.text.source.AnnotationRulerColumn.doubleBufferPaint(AnnotationRulerColumn.java:539)
+	at org.eclipse.jface.text.source.AnnotationRulerColumn.lambda$1(AnnotationRulerColumn.java:274)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:234)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4406)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1512)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1535)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1520)
+	at org.eclipse.swt.widgets.Control.drawWidget(Control.java:1278)
+	at org.eclipse.swt.widgets.Canvas.drawWidget(Canvas.java:176)
+	at org.eclipse.swt.widgets.Widget.drawRect(Widget.java:776)
+	at org.eclipse.swt.widgets.Canvas.drawRect(Canvas.java:170)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6043)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSendSuper(Native Method)
+	at org.eclipse.swt.widgets.Display.applicationNextEventMatchingMask(Display.java:5284)
+	at org.eclipse.swt.widgets.Display.applicationProc(Display.java:5716)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend(Native Method)
+	at org.eclipse.swt.internal.cocoa.NSApplication.nextEventMatchingMask(NSApplication.java:97)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3804)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1049)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:660)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:559)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:154)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:150)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+
+!ENTRY org.eclipse.ui 4 0 2020-12-19 00:01:51.659
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.swt.graphics.Image.internal_new_GC(Image.java:1598)
+	at org.eclipse.swt.graphics.GC.<init>(GC.java:262)
+	at org.eclipse.swt.graphics.GC.<init>(GC.java:223)
+	at org.eclipse.jface.text.source.OverviewRuler.doubleBufferPaint(OverviewRuler.java:682)
+	at org.eclipse.jface.text.source.OverviewRuler.lambda$1(OverviewRuler.java:592)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:234)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4406)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1512)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1535)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1520)
+	at org.eclipse.swt.widgets.Control.drawWidget(Control.java:1278)
+	at org.eclipse.swt.widgets.Canvas.drawWidget(Canvas.java:176)
+	at org.eclipse.swt.widgets.Widget.drawRect(Widget.java:776)
+	at org.eclipse.swt.widgets.Canvas.drawRect(Canvas.java:170)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6043)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSendSuper(Native Method)
+	at org.eclipse.swt.widgets.Display.applicationNextEventMatchingMask(Display.java:5284)
+	at org.eclipse.swt.widgets.Display.applicationProc(Display.java:5716)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend(Native Method)
+	at org.eclipse.swt.internal.cocoa.NSApplication.nextEventMatchingMask(NSApplication.java:97)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3804)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1049)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:660)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:559)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:154)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:150)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+
+!ENTRY org.eclipse.ui 4 0 2020-12-19 00:01:51.663
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.swt.graphics.Image.internal_new_GC(Image.java:1598)
+	at org.eclipse.swt.graphics.GC.<init>(GC.java:262)
+	at org.eclipse.swt.graphics.GC.<init>(GC.java:223)
+	at org.eclipse.jface.text.source.LineNumberRulerColumn.doubleBufferPaint(LineNumberRulerColumn.java:693)
+	at org.eclipse.jface.text.source.LineNumberRulerColumn.lambda$2(LineNumberRulerColumn.java:619)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:234)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4406)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1512)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1535)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1520)
+	at org.eclipse.swt.widgets.Control.drawWidget(Control.java:1278)
+	at org.eclipse.swt.widgets.Canvas.drawWidget(Canvas.java:176)
+	at org.eclipse.swt.widgets.Widget.drawRect(Widget.java:776)
+	at org.eclipse.swt.widgets.Canvas.drawRect(Canvas.java:170)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6043)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSendSuper(Native Method)
+	at org.eclipse.swt.widgets.Display.applicationNextEventMatchingMask(Display.java:5284)
+	at org.eclipse.swt.widgets.Display.applicationProc(Display.java:5716)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend(Native Method)
+	at org.eclipse.swt.internal.cocoa.NSApplication.nextEventMatchingMask(NSApplication.java:97)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3804)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1049)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:660)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:559)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:154)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:150)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+
+!ENTRY org.eclipse.ui 4 0 2020-12-19 00:01:51.667
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.swt.graphics.Image.internal_new_GC(Image.java:1598)
+	at org.eclipse.swt.graphics.GC.<init>(GC.java:262)
+	at org.eclipse.swt.graphics.GC.<init>(GC.java:223)
+	at org.eclipse.jface.text.source.AnnotationRulerColumn.doubleBufferPaint(AnnotationRulerColumn.java:539)
+	at org.eclipse.jface.text.source.AnnotationRulerColumn.lambda$1(AnnotationRulerColumn.java:274)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:234)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4406)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1512)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1535)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1520)
+	at org.eclipse.swt.widgets.Control.drawWidget(Control.java:1278)
+	at org.eclipse.swt.widgets.Canvas.drawWidget(Canvas.java:176)
+	at org.eclipse.swt.widgets.Widget.drawRect(Widget.java:776)
+	at org.eclipse.swt.widgets.Canvas.drawRect(Canvas.java:170)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6043)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSendSuper(Native Method)
+	at org.eclipse.swt.widgets.Display.applicationNextEventMatchingMask(Display.java:5284)
+	at org.eclipse.swt.widgets.Display.applicationProc(Display.java:5716)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend(Native Method)
+	at org.eclipse.swt.internal.cocoa.NSApplication.nextEventMatchingMask(NSApplication.java:97)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3804)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1049)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:660)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:559)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:154)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:150)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+
+!ENTRY org.eclipse.ui 4 0 2020-12-19 00:01:51.671
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.swt.graphics.Image.internal_new_GC(Image.java:1598)
+	at org.eclipse.swt.graphics.GC.<init>(GC.java:262)
+	at org.eclipse.swt.graphics.GC.<init>(GC.java:223)
+	at org.eclipse.jface.text.source.AnnotationRulerColumn.doubleBufferPaint(AnnotationRulerColumn.java:539)
+	at org.eclipse.jface.text.source.AnnotationRulerColumn.lambda$1(AnnotationRulerColumn.java:274)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:234)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4406)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1512)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1535)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1520)
+	at org.eclipse.swt.widgets.Control.drawWidget(Control.java:1278)
+	at org.eclipse.swt.widgets.Canvas.drawWidget(Canvas.java:176)
+	at org.eclipse.swt.widgets.Widget.drawRect(Widget.java:776)
+	at org.eclipse.swt.widgets.Canvas.drawRect(Canvas.java:170)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6043)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSendSuper(Native Method)
+	at org.eclipse.swt.widgets.Display.applicationNextEventMatchingMask(Display.java:5284)
+	at org.eclipse.swt.widgets.Display.applicationProc(Display.java:5716)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend(Native Method)
+	at org.eclipse.swt.internal.cocoa.NSApplication.nextEventMatchingMask(NSApplication.java:97)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3804)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1049)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:660)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:559)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:154)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:150)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+
+!ENTRY org.eclipse.ui 4 0 2020-12-19 00:01:51.793
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.swt.graphics.Image.internal_new_GC(Image.java:1598)
+	at org.eclipse.swt.graphics.GC.<init>(GC.java:262)
+	at org.eclipse.swt.graphics.GC.<init>(GC.java:223)
+	at org.eclipse.jface.text.source.OverviewRuler.doubleBufferPaint(OverviewRuler.java:682)
+	at org.eclipse.jface.text.source.OverviewRuler.lambda$1(OverviewRuler.java:592)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:234)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4406)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1512)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1535)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1520)
+	at org.eclipse.swt.widgets.Control.drawWidget(Control.java:1278)
+	at org.eclipse.swt.widgets.Canvas.drawWidget(Canvas.java:176)
+	at org.eclipse.swt.widgets.Widget.drawRect(Widget.java:776)
+	at org.eclipse.swt.widgets.Canvas.drawRect(Canvas.java:170)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6043)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSendSuper(Native Method)
+	at org.eclipse.swt.widgets.Display.applicationNextEventMatchingMask(Display.java:5284)
+	at org.eclipse.swt.widgets.Display.applicationProc(Display.java:5716)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend(Native Method)
+	at org.eclipse.swt.internal.cocoa.NSApplication.nextEventMatchingMask(NSApplication.java:97)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3804)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1049)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:660)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:559)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:154)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:150)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+
+!ENTRY org.eclipse.ui 4 0 2020-12-19 00:01:51.797
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.swt.graphics.Image.internal_new_GC(Image.java:1598)
+	at org.eclipse.swt.graphics.GC.<init>(GC.java:262)
+	at org.eclipse.swt.graphics.GC.<init>(GC.java:223)
+	at org.eclipse.jface.text.source.LineNumberRulerColumn.doubleBufferPaint(LineNumberRulerColumn.java:693)
+	at org.eclipse.jface.text.source.LineNumberRulerColumn.lambda$2(LineNumberRulerColumn.java:619)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:234)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4406)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1512)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1535)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1520)
+	at org.eclipse.swt.widgets.Control.drawWidget(Control.java:1278)
+	at org.eclipse.swt.widgets.Canvas.drawWidget(Canvas.java:176)
+	at org.eclipse.swt.widgets.Widget.drawRect(Widget.java:776)
+	at org.eclipse.swt.widgets.Canvas.drawRect(Canvas.java:170)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6043)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSendSuper(Native Method)
+	at org.eclipse.swt.widgets.Display.applicationNextEventMatchingMask(Display.java:5284)
+	at org.eclipse.swt.widgets.Display.applicationProc(Display.java:5716)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend(Native Method)
+	at org.eclipse.swt.internal.cocoa.NSApplication.nextEventMatchingMask(NSApplication.java:97)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3804)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1049)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:660)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:559)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:154)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:150)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+
+!ENTRY org.eclipse.ui 4 0 2020-12-19 00:01:51.804
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.swt.graphics.Image.internal_new_GC(Image.java:1598)
+	at org.eclipse.swt.graphics.GC.<init>(GC.java:262)
+	at org.eclipse.swt.graphics.GC.<init>(GC.java:223)
+	at org.eclipse.jface.text.source.AnnotationRulerColumn.doubleBufferPaint(AnnotationRulerColumn.java:539)
+	at org.eclipse.jface.text.source.AnnotationRulerColumn.lambda$1(AnnotationRulerColumn.java:274)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:234)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4406)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1512)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1535)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1520)
+	at org.eclipse.swt.widgets.Control.drawWidget(Control.java:1278)
+	at org.eclipse.swt.widgets.Canvas.drawWidget(Canvas.java:176)
+	at org.eclipse.swt.widgets.Widget.drawRect(Widget.java:776)
+	at org.eclipse.swt.widgets.Canvas.drawRect(Canvas.java:170)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6043)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSendSuper(Native Method)
+	at org.eclipse.swt.widgets.Display.applicationNextEventMatchingMask(Display.java:5284)
+	at org.eclipse.swt.widgets.Display.applicationProc(Display.java:5716)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend(Native Method)
+	at org.eclipse.swt.internal.cocoa.NSApplication.nextEventMatchingMask(NSApplication.java:97)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3804)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1049)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:660)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:559)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:154)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:150)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+
+!ENTRY org.eclipse.ui 4 0 2020-12-19 00:01:51.823
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.swt.graphics.Image.internal_new_GC(Image.java:1598)
+	at org.eclipse.swt.graphics.GC.<init>(GC.java:262)
+	at org.eclipse.swt.graphics.GC.<init>(GC.java:223)
+	at org.eclipse.jface.text.source.AnnotationRulerColumn.doubleBufferPaint(AnnotationRulerColumn.java:539)
+	at org.eclipse.jface.text.source.AnnotationRulerColumn.lambda$1(AnnotationRulerColumn.java:274)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:234)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4406)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1512)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1535)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1520)
+	at org.eclipse.swt.widgets.Control.drawWidget(Control.java:1278)
+	at org.eclipse.swt.widgets.Canvas.drawWidget(Canvas.java:176)
+	at org.eclipse.swt.widgets.Widget.drawRect(Widget.java:776)
+	at org.eclipse.swt.widgets.Canvas.drawRect(Canvas.java:170)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6043)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSendSuper(Native Method)
+	at org.eclipse.swt.widgets.Display.applicationNextEventMatchingMask(Display.java:5284)
+	at org.eclipse.swt.widgets.Display.applicationProc(Display.java:5716)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend(Native Method)
+	at org.eclipse.swt.internal.cocoa.NSApplication.nextEventMatchingMask(NSApplication.java:97)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3804)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1049)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:660)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:559)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:154)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:150)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+
+!ENTRY org.eclipse.ui 4 0 2020-12-19 00:01:55.032
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.swt.graphics.Image.internal_new_GC(Image.java:1598)
+	at org.eclipse.swt.graphics.GC.<init>(GC.java:262)
+	at org.eclipse.swt.graphics.GC.<init>(GC.java:223)
+	at org.eclipse.jface.text.source.OverviewRuler.doubleBufferPaint(OverviewRuler.java:682)
+	at org.eclipse.jface.text.source.OverviewRuler.lambda$1(OverviewRuler.java:592)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:234)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4406)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1512)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1535)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1520)
+	at org.eclipse.swt.widgets.Control.drawWidget(Control.java:1278)
+	at org.eclipse.swt.widgets.Canvas.drawWidget(Canvas.java:176)
+	at org.eclipse.swt.widgets.Widget.drawRect(Widget.java:776)
+	at org.eclipse.swt.widgets.Canvas.drawRect(Canvas.java:170)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6043)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSendSuper(Native Method)
+	at org.eclipse.swt.widgets.Display.applicationNextEventMatchingMask(Display.java:5284)
+	at org.eclipse.swt.widgets.Display.applicationProc(Display.java:5716)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend(Native Method)
+	at org.eclipse.swt.internal.cocoa.NSApplication.nextEventMatchingMask(NSApplication.java:97)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3804)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1049)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:660)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:559)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:154)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:150)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+
+!ENTRY org.eclipse.ui 4 0 2020-12-19 00:01:55.038
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.swt.graphics.Image.internal_new_GC(Image.java:1598)
+	at org.eclipse.swt.graphics.GC.<init>(GC.java:262)
+	at org.eclipse.swt.graphics.GC.<init>(GC.java:223)
+	at org.eclipse.jface.text.source.LineNumberRulerColumn.doubleBufferPaint(LineNumberRulerColumn.java:693)
+	at org.eclipse.jface.text.source.LineNumberRulerColumn.lambda$2(LineNumberRulerColumn.java:619)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:234)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4406)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1512)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1535)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1520)
+	at org.eclipse.swt.widgets.Control.drawWidget(Control.java:1278)
+	at org.eclipse.swt.widgets.Canvas.drawWidget(Canvas.java:176)
+	at org.eclipse.swt.widgets.Widget.drawRect(Widget.java:776)
+	at org.eclipse.swt.widgets.Canvas.drawRect(Canvas.java:170)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6043)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSendSuper(Native Method)
+	at org.eclipse.swt.widgets.Display.applicationNextEventMatchingMask(Display.java:5284)
+	at org.eclipse.swt.widgets.Display.applicationProc(Display.java:5716)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend(Native Method)
+	at org.eclipse.swt.internal.cocoa.NSApplication.nextEventMatchingMask(NSApplication.java:97)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3804)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1049)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:660)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:559)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:154)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:150)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+
+!ENTRY org.eclipse.ui 4 0 2020-12-19 00:01:55.041
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.swt.graphics.Image.internal_new_GC(Image.java:1598)
+	at org.eclipse.swt.graphics.GC.<init>(GC.java:262)
+	at org.eclipse.swt.graphics.GC.<init>(GC.java:223)
+	at org.eclipse.jface.text.source.AnnotationRulerColumn.doubleBufferPaint(AnnotationRulerColumn.java:539)
+	at org.eclipse.jface.text.source.AnnotationRulerColumn.lambda$1(AnnotationRulerColumn.java:274)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:234)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4406)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1512)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1535)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1520)
+	at org.eclipse.swt.widgets.Control.drawWidget(Control.java:1278)
+	at org.eclipse.swt.widgets.Canvas.drawWidget(Canvas.java:176)
+	at org.eclipse.swt.widgets.Widget.drawRect(Widget.java:776)
+	at org.eclipse.swt.widgets.Canvas.drawRect(Canvas.java:170)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6043)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSendSuper(Native Method)
+	at org.eclipse.swt.widgets.Display.applicationNextEventMatchingMask(Display.java:5284)
+	at org.eclipse.swt.widgets.Display.applicationProc(Display.java:5716)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend(Native Method)
+	at org.eclipse.swt.internal.cocoa.NSApplication.nextEventMatchingMask(NSApplication.java:97)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3804)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1049)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:660)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:559)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:154)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:150)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+
+!ENTRY org.eclipse.ui 4 0 2020-12-19 00:01:55.046
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.swt.graphics.Image.internal_new_GC(Image.java:1598)
+	at org.eclipse.swt.graphics.GC.<init>(GC.java:262)
+	at org.eclipse.swt.graphics.GC.<init>(GC.java:223)
+	at org.eclipse.jface.text.source.AnnotationRulerColumn.doubleBufferPaint(AnnotationRulerColumn.java:539)
+	at org.eclipse.jface.text.source.AnnotationRulerColumn.lambda$1(AnnotationRulerColumn.java:274)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:234)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4406)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1512)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1535)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1520)
+	at org.eclipse.swt.widgets.Control.drawWidget(Control.java:1278)
+	at org.eclipse.swt.widgets.Canvas.drawWidget(Canvas.java:176)
+	at org.eclipse.swt.widgets.Widget.drawRect(Widget.java:776)
+	at org.eclipse.swt.widgets.Canvas.drawRect(Canvas.java:170)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6043)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSendSuper(Native Method)
+	at org.eclipse.swt.widgets.Display.applicationNextEventMatchingMask(Display.java:5284)
+	at org.eclipse.swt.widgets.Display.applicationProc(Display.java:5716)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend(Native Method)
+	at org.eclipse.swt.internal.cocoa.NSApplication.nextEventMatchingMask(NSApplication.java:97)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3804)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1049)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:660)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:559)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:154)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:150)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+
+!ENTRY org.eclipse.ui 4 0 2020-12-19 00:01:55.120
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.swt.graphics.Image.internal_new_GC(Image.java:1598)
+	at org.eclipse.swt.graphics.GC.<init>(GC.java:262)
+	at org.eclipse.swt.graphics.GC.<init>(GC.java:223)
+	at org.eclipse.jface.text.source.OverviewRuler.doubleBufferPaint(OverviewRuler.java:682)
+	at org.eclipse.jface.text.source.OverviewRuler.lambda$1(OverviewRuler.java:592)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:234)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4406)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1512)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1535)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1520)
+	at org.eclipse.swt.widgets.Control.drawWidget(Control.java:1278)
+	at org.eclipse.swt.widgets.Canvas.drawWidget(Canvas.java:176)
+	at org.eclipse.swt.widgets.Widget.drawRect(Widget.java:776)
+	at org.eclipse.swt.widgets.Canvas.drawRect(Canvas.java:170)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6043)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSendSuper(Native Method)
+	at org.eclipse.swt.widgets.Display.applicationNextEventMatchingMask(Display.java:5284)
+	at org.eclipse.swt.widgets.Display.applicationProc(Display.java:5716)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend(Native Method)
+	at org.eclipse.swt.internal.cocoa.NSApplication.nextEventMatchingMask(NSApplication.java:97)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3804)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1049)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:660)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:559)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:154)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:150)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+
+!ENTRY org.eclipse.ui 4 0 2020-12-19 00:01:55.123
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.swt.graphics.Image.internal_new_GC(Image.java:1598)
+	at org.eclipse.swt.graphics.GC.<init>(GC.java:262)
+	at org.eclipse.swt.graphics.GC.<init>(GC.java:223)
+	at org.eclipse.jface.text.source.LineNumberRulerColumn.doubleBufferPaint(LineNumberRulerColumn.java:693)
+	at org.eclipse.jface.text.source.LineNumberRulerColumn.lambda$2(LineNumberRulerColumn.java:619)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:234)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4406)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1512)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1535)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1520)
+	at org.eclipse.swt.widgets.Control.drawWidget(Control.java:1278)
+	at org.eclipse.swt.widgets.Canvas.drawWidget(Canvas.java:176)
+	at org.eclipse.swt.widgets.Widget.drawRect(Widget.java:776)
+	at org.eclipse.swt.widgets.Canvas.drawRect(Canvas.java:170)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6043)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSendSuper(Native Method)
+	at org.eclipse.swt.widgets.Display.applicationNextEventMatchingMask(Display.java:5284)
+	at org.eclipse.swt.widgets.Display.applicationProc(Display.java:5716)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend(Native Method)
+	at org.eclipse.swt.internal.cocoa.NSApplication.nextEventMatchingMask(NSApplication.java:97)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3804)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1049)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:660)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:559)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:154)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:150)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+
+!ENTRY org.eclipse.ui 4 0 2020-12-19 00:01:55.126
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.swt.graphics.Image.internal_new_GC(Image.java:1598)
+	at org.eclipse.swt.graphics.GC.<init>(GC.java:262)
+	at org.eclipse.swt.graphics.GC.<init>(GC.java:223)
+	at org.eclipse.jface.text.source.AnnotationRulerColumn.doubleBufferPaint(AnnotationRulerColumn.java:539)
+	at org.eclipse.jface.text.source.AnnotationRulerColumn.lambda$1(AnnotationRulerColumn.java:274)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:234)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4406)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1512)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1535)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1520)
+	at org.eclipse.swt.widgets.Control.drawWidget(Control.java:1278)
+	at org.eclipse.swt.widgets.Canvas.drawWidget(Canvas.java:176)
+	at org.eclipse.swt.widgets.Widget.drawRect(Widget.java:776)
+	at org.eclipse.swt.widgets.Canvas.drawRect(Canvas.java:170)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6043)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSendSuper(Native Method)
+	at org.eclipse.swt.widgets.Display.applicationNextEventMatchingMask(Display.java:5284)
+	at org.eclipse.swt.widgets.Display.applicationProc(Display.java:5716)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend(Native Method)
+	at org.eclipse.swt.internal.cocoa.NSApplication.nextEventMatchingMask(NSApplication.java:97)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3804)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1049)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:660)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:559)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:154)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:150)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+
+!ENTRY org.eclipse.ui 4 0 2020-12-19 00:01:55.130
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.swt.graphics.Image.internal_new_GC(Image.java:1598)
+	at org.eclipse.swt.graphics.GC.<init>(GC.java:262)
+	at org.eclipse.swt.graphics.GC.<init>(GC.java:223)
+	at org.eclipse.jface.text.source.AnnotationRulerColumn.doubleBufferPaint(AnnotationRulerColumn.java:539)
+	at org.eclipse.jface.text.source.AnnotationRulerColumn.lambda$1(AnnotationRulerColumn.java:274)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:234)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4406)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1512)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1535)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1520)
+	at org.eclipse.swt.widgets.Control.drawWidget(Control.java:1278)
+	at org.eclipse.swt.widgets.Canvas.drawWidget(Canvas.java:176)
+	at org.eclipse.swt.widgets.Widget.drawRect(Widget.java:776)
+	at org.eclipse.swt.widgets.Canvas.drawRect(Canvas.java:170)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6043)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSendSuper(Native Method)
+	at org.eclipse.swt.widgets.Display.applicationNextEventMatchingMask(Display.java:5284)
+	at org.eclipse.swt.widgets.Display.applicationProc(Display.java:5716)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend(Native Method)
+	at org.eclipse.swt.internal.cocoa.NSApplication.nextEventMatchingMask(NSApplication.java:97)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3804)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1049)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:660)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:559)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:154)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:150)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+
+!ENTRY org.eclipse.ui 4 0 2020-12-19 00:33:07.122
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.swt.graphics.Image.internal_new_GC(Image.java:1598)
+	at org.eclipse.swt.graphics.GC.<init>(GC.java:262)
+	at org.eclipse.swt.graphics.GC.<init>(GC.java:223)
+	at org.eclipse.jface.text.source.OverviewRuler.doubleBufferPaint(OverviewRuler.java:682)
+	at org.eclipse.jface.text.source.OverviewRuler.lambda$1(OverviewRuler.java:592)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:234)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4406)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1512)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1535)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1520)
+	at org.eclipse.swt.widgets.Control.drawWidget(Control.java:1278)
+	at org.eclipse.swt.widgets.Canvas.drawWidget(Canvas.java:176)
+	at org.eclipse.swt.widgets.Widget.drawRect(Widget.java:776)
+	at org.eclipse.swt.widgets.Canvas.drawRect(Canvas.java:170)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6043)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSendSuper(Native Method)
+	at org.eclipse.swt.widgets.Display.applicationNextEventMatchingMask(Display.java:5284)
+	at org.eclipse.swt.widgets.Display.applicationProc(Display.java:5716)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend(Native Method)
+	at org.eclipse.swt.internal.cocoa.NSApplication.nextEventMatchingMask(NSApplication.java:97)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3804)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchWindowAdvisor.promptOnExit(IDEWorkbenchWindowAdvisor.java:223)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor.lambda$0(IDEWorkbenchAdvisor.java:158)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4406)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4395)
+	at org.eclipse.swt.widgets.Display.applicationProc(Display.java:5597)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSendSuper(Native Method)
+	at org.eclipse.swt.widgets.Display.applicationNextEventMatchingMask(Display.java:5284)
+	at org.eclipse.swt.widgets.Display.applicationProc(Display.java:5716)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend(Native Method)
+	at org.eclipse.swt.internal.cocoa.NSApplication.nextEventMatchingMask(NSApplication.java:97)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3804)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1049)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:660)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:559)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:154)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:150)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+
+!ENTRY org.eclipse.ui 4 0 2020-12-19 00:33:07.136
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.swt.graphics.Image.internal_new_GC(Image.java:1598)
+	at org.eclipse.swt.graphics.GC.<init>(GC.java:262)
+	at org.eclipse.swt.graphics.GC.<init>(GC.java:223)
+	at org.eclipse.jface.text.source.LineNumberRulerColumn.doubleBufferPaint(LineNumberRulerColumn.java:693)
+	at org.eclipse.jface.text.source.LineNumberRulerColumn.lambda$2(LineNumberRulerColumn.java:619)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:234)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4406)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1512)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1535)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1520)
+	at org.eclipse.swt.widgets.Control.drawWidget(Control.java:1278)
+	at org.eclipse.swt.widgets.Canvas.drawWidget(Canvas.java:176)
+	at org.eclipse.swt.widgets.Widget.drawRect(Widget.java:776)
+	at org.eclipse.swt.widgets.Canvas.drawRect(Canvas.java:170)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6043)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSendSuper(Native Method)
+	at org.eclipse.swt.widgets.Display.applicationNextEventMatchingMask(Display.java:5284)
+	at org.eclipse.swt.widgets.Display.applicationProc(Display.java:5716)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend(Native Method)
+	at org.eclipse.swt.internal.cocoa.NSApplication.nextEventMatchingMask(NSApplication.java:97)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3804)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchWindowAdvisor.promptOnExit(IDEWorkbenchWindowAdvisor.java:223)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor.lambda$0(IDEWorkbenchAdvisor.java:158)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4406)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4395)
+	at org.eclipse.swt.widgets.Display.applicationProc(Display.java:5597)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSendSuper(Native Method)
+	at org.eclipse.swt.widgets.Display.applicationNextEventMatchingMask(Display.java:5284)
+	at org.eclipse.swt.widgets.Display.applicationProc(Display.java:5716)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend(Native Method)
+	at org.eclipse.swt.internal.cocoa.NSApplication.nextEventMatchingMask(NSApplication.java:97)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3804)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1049)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:660)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:559)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:154)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:150)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+
+!ENTRY org.eclipse.ui 4 0 2020-12-19 00:33:07.148
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.swt.graphics.Image.internal_new_GC(Image.java:1598)
+	at org.eclipse.swt.graphics.GC.<init>(GC.java:262)
+	at org.eclipse.swt.graphics.GC.<init>(GC.java:223)
+	at org.eclipse.jface.text.source.AnnotationRulerColumn.doubleBufferPaint(AnnotationRulerColumn.java:539)
+	at org.eclipse.jface.text.source.AnnotationRulerColumn.lambda$1(AnnotationRulerColumn.java:274)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:234)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4406)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1512)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1535)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1520)
+	at org.eclipse.swt.widgets.Control.drawWidget(Control.java:1278)
+	at org.eclipse.swt.widgets.Canvas.drawWidget(Canvas.java:176)
+	at org.eclipse.swt.widgets.Widget.drawRect(Widget.java:776)
+	at org.eclipse.swt.widgets.Canvas.drawRect(Canvas.java:170)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6043)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSendSuper(Native Method)
+	at org.eclipse.swt.widgets.Display.applicationNextEventMatchingMask(Display.java:5284)
+	at org.eclipse.swt.widgets.Display.applicationProc(Display.java:5716)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend(Native Method)
+	at org.eclipse.swt.internal.cocoa.NSApplication.nextEventMatchingMask(NSApplication.java:97)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3804)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchWindowAdvisor.promptOnExit(IDEWorkbenchWindowAdvisor.java:223)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor.lambda$0(IDEWorkbenchAdvisor.java:158)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4406)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4395)
+	at org.eclipse.swt.widgets.Display.applicationProc(Display.java:5597)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSendSuper(Native Method)
+	at org.eclipse.swt.widgets.Display.applicationNextEventMatchingMask(Display.java:5284)
+	at org.eclipse.swt.widgets.Display.applicationProc(Display.java:5716)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend(Native Method)
+	at org.eclipse.swt.internal.cocoa.NSApplication.nextEventMatchingMask(NSApplication.java:97)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3804)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1049)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:660)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:559)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:154)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:150)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+
+!ENTRY org.eclipse.ui 4 0 2020-12-19 00:33:07.152
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.swt.graphics.Image.internal_new_GC(Image.java:1598)
+	at org.eclipse.swt.graphics.GC.<init>(GC.java:262)
+	at org.eclipse.swt.graphics.GC.<init>(GC.java:223)
+	at org.eclipse.jface.text.source.AnnotationRulerColumn.doubleBufferPaint(AnnotationRulerColumn.java:539)
+	at org.eclipse.jface.text.source.AnnotationRulerColumn.lambda$1(AnnotationRulerColumn.java:274)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:234)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4406)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1512)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1535)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1520)
+	at org.eclipse.swt.widgets.Control.drawWidget(Control.java:1278)
+	at org.eclipse.swt.widgets.Canvas.drawWidget(Canvas.java:176)
+	at org.eclipse.swt.widgets.Widget.drawRect(Widget.java:776)
+	at org.eclipse.swt.widgets.Canvas.drawRect(Canvas.java:170)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6043)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSendSuper(Native Method)
+	at org.eclipse.swt.widgets.Display.applicationNextEventMatchingMask(Display.java:5284)
+	at org.eclipse.swt.widgets.Display.applicationProc(Display.java:5716)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend(Native Method)
+	at org.eclipse.swt.internal.cocoa.NSApplication.nextEventMatchingMask(NSApplication.java:97)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3804)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchWindowAdvisor.promptOnExit(IDEWorkbenchWindowAdvisor.java:223)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor.lambda$0(IDEWorkbenchAdvisor.java:158)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4406)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4395)
+	at org.eclipse.swt.widgets.Display.applicationProc(Display.java:5597)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSendSuper(Native Method)
+	at org.eclipse.swt.widgets.Display.applicationNextEventMatchingMask(Display.java:5284)
+	at org.eclipse.swt.widgets.Display.applicationProc(Display.java:5716)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend(Native Method)
+	at org.eclipse.swt.internal.cocoa.NSApplication.nextEventMatchingMask(NSApplication.java:97)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3804)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1049)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:660)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:559)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:154)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:150)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+
+!ENTRY org.eclipse.ui 4 0 2020-12-19 00:33:08.251
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.swt.graphics.Image.internal_new_GC(Image.java:1598)
+	at org.eclipse.swt.graphics.GC.<init>(GC.java:262)
+	at org.eclipse.swt.graphics.GC.<init>(GC.java:223)
+	at org.eclipse.jface.text.source.OverviewRuler.doubleBufferPaint(OverviewRuler.java:682)
+	at org.eclipse.jface.text.source.OverviewRuler.lambda$1(OverviewRuler.java:592)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:234)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4406)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1512)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1535)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1520)
+	at org.eclipse.swt.widgets.Control.drawWidget(Control.java:1278)
+	at org.eclipse.swt.widgets.Canvas.drawWidget(Canvas.java:176)
+	at org.eclipse.swt.widgets.Widget.drawRect(Widget.java:776)
+	at org.eclipse.swt.widgets.Canvas.drawRect(Canvas.java:170)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6043)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend(Native Method)
+	at org.eclipse.swt.internal.cocoa.NSView.displayIfNeeded(NSView.java:154)
+	at org.eclipse.swt.widgets.Control.update(Control.java:5185)
+	at org.eclipse.swt.widgets.Display.update(Display.java:5146)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:830)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchWindowAdvisor.promptOnExit(IDEWorkbenchWindowAdvisor.java:223)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor.lambda$0(IDEWorkbenchAdvisor.java:158)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4406)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4395)
+	at org.eclipse.swt.widgets.Display.applicationProc(Display.java:5597)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSendSuper(Native Method)
+	at org.eclipse.swt.widgets.Display.applicationNextEventMatchingMask(Display.java:5284)
+	at org.eclipse.swt.widgets.Display.applicationProc(Display.java:5716)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend(Native Method)
+	at org.eclipse.swt.internal.cocoa.NSApplication.nextEventMatchingMask(NSApplication.java:97)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3804)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1049)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:660)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:559)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:154)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:150)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+
+!ENTRY org.eclipse.ui 4 0 2020-12-19 00:33:08.256
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.swt.graphics.Image.internal_new_GC(Image.java:1598)
+	at org.eclipse.swt.graphics.GC.<init>(GC.java:262)
+	at org.eclipse.swt.graphics.GC.<init>(GC.java:223)
+	at org.eclipse.jface.text.source.LineNumberRulerColumn.doubleBufferPaint(LineNumberRulerColumn.java:693)
+	at org.eclipse.jface.text.source.LineNumberRulerColumn.lambda$2(LineNumberRulerColumn.java:619)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:234)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4406)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1512)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1535)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1520)
+	at org.eclipse.swt.widgets.Control.drawWidget(Control.java:1278)
+	at org.eclipse.swt.widgets.Canvas.drawWidget(Canvas.java:176)
+	at org.eclipse.swt.widgets.Widget.drawRect(Widget.java:776)
+	at org.eclipse.swt.widgets.Canvas.drawRect(Canvas.java:170)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6043)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend(Native Method)
+	at org.eclipse.swt.internal.cocoa.NSView.displayIfNeeded(NSView.java:154)
+	at org.eclipse.swt.widgets.Control.update(Control.java:5185)
+	at org.eclipse.swt.widgets.Display.update(Display.java:5146)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:830)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchWindowAdvisor.promptOnExit(IDEWorkbenchWindowAdvisor.java:223)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor.lambda$0(IDEWorkbenchAdvisor.java:158)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4406)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4395)
+	at org.eclipse.swt.widgets.Display.applicationProc(Display.java:5597)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSendSuper(Native Method)
+	at org.eclipse.swt.widgets.Display.applicationNextEventMatchingMask(Display.java:5284)
+	at org.eclipse.swt.widgets.Display.applicationProc(Display.java:5716)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend(Native Method)
+	at org.eclipse.swt.internal.cocoa.NSApplication.nextEventMatchingMask(NSApplication.java:97)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3804)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1049)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:660)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:559)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:154)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:150)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+
+!ENTRY org.eclipse.ui 4 0 2020-12-19 00:33:08.260
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.swt.graphics.Image.internal_new_GC(Image.java:1598)
+	at org.eclipse.swt.graphics.GC.<init>(GC.java:262)
+	at org.eclipse.swt.graphics.GC.<init>(GC.java:223)
+	at org.eclipse.jface.text.source.AnnotationRulerColumn.doubleBufferPaint(AnnotationRulerColumn.java:539)
+	at org.eclipse.jface.text.source.AnnotationRulerColumn.lambda$1(AnnotationRulerColumn.java:274)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:234)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4406)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1512)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1535)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1520)
+	at org.eclipse.swt.widgets.Control.drawWidget(Control.java:1278)
+	at org.eclipse.swt.widgets.Canvas.drawWidget(Canvas.java:176)
+	at org.eclipse.swt.widgets.Widget.drawRect(Widget.java:776)
+	at org.eclipse.swt.widgets.Canvas.drawRect(Canvas.java:170)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6043)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend(Native Method)
+	at org.eclipse.swt.internal.cocoa.NSView.displayIfNeeded(NSView.java:154)
+	at org.eclipse.swt.widgets.Control.update(Control.java:5185)
+	at org.eclipse.swt.widgets.Display.update(Display.java:5146)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:830)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchWindowAdvisor.promptOnExit(IDEWorkbenchWindowAdvisor.java:223)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor.lambda$0(IDEWorkbenchAdvisor.java:158)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4406)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4395)
+	at org.eclipse.swt.widgets.Display.applicationProc(Display.java:5597)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSendSuper(Native Method)
+	at org.eclipse.swt.widgets.Display.applicationNextEventMatchingMask(Display.java:5284)
+	at org.eclipse.swt.widgets.Display.applicationProc(Display.java:5716)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend(Native Method)
+	at org.eclipse.swt.internal.cocoa.NSApplication.nextEventMatchingMask(NSApplication.java:97)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3804)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1049)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:660)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:559)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:154)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:150)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+
+!ENTRY org.eclipse.ui 4 0 2020-12-19 00:33:08.265
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.swt.graphics.Image.internal_new_GC(Image.java:1598)
+	at org.eclipse.swt.graphics.GC.<init>(GC.java:262)
+	at org.eclipse.swt.graphics.GC.<init>(GC.java:223)
+	at org.eclipse.jface.text.source.AnnotationRulerColumn.doubleBufferPaint(AnnotationRulerColumn.java:539)
+	at org.eclipse.jface.text.source.AnnotationRulerColumn.lambda$1(AnnotationRulerColumn.java:274)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:234)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4406)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1512)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1535)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1520)
+	at org.eclipse.swt.widgets.Control.drawWidget(Control.java:1278)
+	at org.eclipse.swt.widgets.Canvas.drawWidget(Canvas.java:176)
+	at org.eclipse.swt.widgets.Widget.drawRect(Widget.java:776)
+	at org.eclipse.swt.widgets.Canvas.drawRect(Canvas.java:170)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6043)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend(Native Method)
+	at org.eclipse.swt.internal.cocoa.NSView.displayIfNeeded(NSView.java:154)
+	at org.eclipse.swt.widgets.Control.update(Control.java:5185)
+	at org.eclipse.swt.widgets.Display.update(Display.java:5146)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:830)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchWindowAdvisor.promptOnExit(IDEWorkbenchWindowAdvisor.java:223)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor.lambda$0(IDEWorkbenchAdvisor.java:158)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4406)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4395)
+	at org.eclipse.swt.widgets.Display.applicationProc(Display.java:5597)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSendSuper(Native Method)
+	at org.eclipse.swt.widgets.Display.applicationNextEventMatchingMask(Display.java:5284)
+	at org.eclipse.swt.widgets.Display.applicationProc(Display.java:5716)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend(Native Method)
+	at org.eclipse.swt.internal.cocoa.NSApplication.nextEventMatchingMask(NSApplication.java:97)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3804)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1049)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:660)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:559)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:154)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:150)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+!SESSION 2020-12-22 19:22:19.227 -----------------------------------------------
+eclipse.buildId=4.14.0.I20191210-0610
+java.version=13.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_CA
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/muchderek/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/muchderek/.eclipse_keyring
+
+!ENTRY org.eclipse.mylyn.bugzilla.core 4 0 2020-12-22 19:22:20.878
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.mylyn.bugzilla.core [268]
+  Unresolved requirement: Require-Bundle: org.apache.xmlrpc
+    -> Bundle-SymbolicName: org.apache.xmlrpc; bundle-version="3.0.0.v20100427-1100"
+       org.apache.xmlrpc [57]
+         Unresolved requirement: Import-Package: javax.xml.bind
+  Unresolved requirement: Require-Bundle: org.eclipse.mylyn.commons.xmlrpc; bundle-version="[3.8.0,4.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.mylyn.commons.xmlrpc; bundle-version="3.24.2.v20180904-2231"; singleton:="true"
+       org.eclipse.mylyn.commons.xmlrpc [285]
+         Unresolved requirement: Require-Bundle: org.apache.xmlrpc; bundle-version="[3.0.0,4.0.0)"
+           -> Bundle-SymbolicName: org.apache.xmlrpc; bundle-version="3.0.0.v20100427-1100"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:462)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1844)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1837)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1778)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1742)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1664)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.mylyn.bugzilla.ui 4 0 2020-12-22 19:22:20.881
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.mylyn.bugzilla.ui [270]
+  Unresolved requirement: Require-Bundle: org.eclipse.mylyn.bugzilla.core; bundle-version="[3.8.0,4.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.mylyn.bugzilla.core; bundle-version="3.24.2.v20180905-0003"; singleton:="true"
+       org.eclipse.mylyn.bugzilla.core [268]
+         Unresolved requirement: Require-Bundle: org.apache.xmlrpc
+           -> Bundle-SymbolicName: org.apache.xmlrpc; bundle-version="3.0.0.v20100427-1100"
+              org.apache.xmlrpc [57]
+                Unresolved requirement: Import-Package: javax.xml.bind
+         Unresolved requirement: Require-Bundle: org.eclipse.mylyn.commons.xmlrpc; bundle-version="[3.8.0,4.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.mylyn.commons.xmlrpc; bundle-version="3.24.2.v20180904-2231"; singleton:="true"
+              org.eclipse.mylyn.commons.xmlrpc [285]
+                Unresolved requirement: Require-Bundle: org.apache.xmlrpc; bundle-version="[3.0.0,4.0.0)"
+                  -> Bundle-SymbolicName: org.apache.xmlrpc; bundle-version="3.0.0.v20100427-1100"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:462)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1844)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1837)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1778)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1742)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1664)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.mylyn.commons.xmlrpc 4 0 2020-12-22 19:22:20.883
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.mylyn.commons.xmlrpc [285]
+  Unresolved requirement: Require-Bundle: org.apache.xmlrpc; bundle-version="[3.0.0,4.0.0)"
+    -> Bundle-SymbolicName: org.apache.xmlrpc; bundle-version="3.0.0.v20100427-1100"
+       org.apache.xmlrpc [57]
+         Unresolved requirement: Import-Package: javax.xml.bind
+
+	at org.eclipse.osgi.container.Module.start(Module.java:462)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1844)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1837)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1778)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1742)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1664)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.core.net 1 0 2020-12-22 19:22:44.095
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.mylyn.tasks.core 4 0 2020-12-22 19:22:47.028
+!MESSAGE Unexpected error while loading repository template extensions
+!SUBENTRY 1 org.eclipse.mylyn.tasks.core 4 0 2020-12-22 19:22:47.028
+!MESSAGE Could not load repository template extension contributed by 'org.eclipse.mylyn.bugzilla.ide' with connectorKind 'bugzilla'
+!SESSION 2020-12-22 23:12:47.882 -----------------------------------------------
+eclipse.buildId=4.14.0.I20191210-0610
+java.version=13.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_CA
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/muchderek/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/muchderek/.eclipse_keyring
+
+!ENTRY org.eclipse.mylyn.bugzilla.core 4 0 2020-12-22 23:12:49.227
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.mylyn.bugzilla.core [268]
+  Unresolved requirement: Require-Bundle: org.apache.xmlrpc
+    -> Bundle-SymbolicName: org.apache.xmlrpc; bundle-version="3.0.0.v20100427-1100"
+       org.apache.xmlrpc [57]
+         Unresolved requirement: Import-Package: javax.xml.bind
+  Unresolved requirement: Require-Bundle: org.eclipse.mylyn.commons.xmlrpc; bundle-version="[3.8.0,4.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.mylyn.commons.xmlrpc; bundle-version="3.24.2.v20180904-2231"; singleton:="true"
+       org.eclipse.mylyn.commons.xmlrpc [285]
+         Unresolved requirement: Require-Bundle: org.apache.xmlrpc; bundle-version="[3.0.0,4.0.0)"
+           -> Bundle-SymbolicName: org.apache.xmlrpc; bundle-version="3.0.0.v20100427-1100"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:462)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1844)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1837)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1778)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1742)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1664)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.mylyn.bugzilla.ui 4 0 2020-12-22 23:12:49.230
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.mylyn.bugzilla.ui [270]
+  Unresolved requirement: Require-Bundle: org.eclipse.mylyn.bugzilla.core; bundle-version="[3.8.0,4.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.mylyn.bugzilla.core; bundle-version="3.24.2.v20180905-0003"; singleton:="true"
+       org.eclipse.mylyn.bugzilla.core [268]
+         Unresolved requirement: Require-Bundle: org.apache.xmlrpc
+           -> Bundle-SymbolicName: org.apache.xmlrpc; bundle-version="3.0.0.v20100427-1100"
+              org.apache.xmlrpc [57]
+                Unresolved requirement: Import-Package: javax.xml.bind
+         Unresolved requirement: Require-Bundle: org.eclipse.mylyn.commons.xmlrpc; bundle-version="[3.8.0,4.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.mylyn.commons.xmlrpc; bundle-version="3.24.2.v20180904-2231"; singleton:="true"
+              org.eclipse.mylyn.commons.xmlrpc [285]
+                Unresolved requirement: Require-Bundle: org.apache.xmlrpc; bundle-version="[3.0.0,4.0.0)"
+                  -> Bundle-SymbolicName: org.apache.xmlrpc; bundle-version="3.0.0.v20100427-1100"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:462)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1844)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1837)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1778)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1742)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1664)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.mylyn.commons.xmlrpc 4 0 2020-12-22 23:12:49.231
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.mylyn.commons.xmlrpc [285]
+  Unresolved requirement: Require-Bundle: org.apache.xmlrpc; bundle-version="[3.0.0,4.0.0)"
+    -> Bundle-SymbolicName: org.apache.xmlrpc; bundle-version="3.0.0.v20100427-1100"
+       org.apache.xmlrpc [57]
+         Unresolved requirement: Import-Package: javax.xml.bind
+
+	at org.eclipse.osgi.container.Module.start(Module.java:462)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1844)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1837)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1778)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1742)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1664)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.core.net 1 0 2020-12-22 23:12:59.658
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.mylyn.tasks.core 4 0 2020-12-22 23:13:03.777
+!MESSAGE Unexpected error while loading repository template extensions
+!SUBENTRY 1 org.eclipse.mylyn.tasks.core 4 0 2020-12-22 23:13:03.777
+!MESSAGE Could not load repository template extension contributed by 'org.eclipse.mylyn.bugzilla.ide' with connectorKind 'bugzilla'
+!SESSION 2021-01-04 18:28:54.279 -----------------------------------------------
+eclipse.buildId=4.14.0.I20191210-0610
+java.version=13.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_CA
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/muchderek/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/muchderek/.eclipse_keyring
+
+!ENTRY org.eclipse.mylyn.bugzilla.core 4 0 2021-01-04 18:28:55.530
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.mylyn.bugzilla.core [268]
+  Unresolved requirement: Require-Bundle: org.eclipse.mylyn.commons.xmlrpc; bundle-version="[3.8.0,4.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.mylyn.commons.xmlrpc; bundle-version="3.24.2.v20180904-2231"; singleton:="true"
+       org.eclipse.mylyn.commons.xmlrpc [285]
+         Unresolved requirement: Require-Bundle: org.apache.xmlrpc; bundle-version="[3.0.0,4.0.0)"
+           -> Bundle-SymbolicName: org.apache.xmlrpc; bundle-version="3.0.0.v20100427-1100"
+              org.apache.xmlrpc [57]
+                Unresolved requirement: Import-Package: javax.xml.bind
+  Unresolved requirement: Require-Bundle: org.apache.xmlrpc
+    -> Bundle-SymbolicName: org.apache.xmlrpc; bundle-version="3.0.0.v20100427-1100"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:462)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1844)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1837)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1778)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1742)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1664)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.mylyn.bugzilla.ui 4 0 2021-01-04 18:28:55.533
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.mylyn.bugzilla.ui [270]
+  Unresolved requirement: Require-Bundle: org.eclipse.mylyn.bugzilla.core; bundle-version="[3.8.0,4.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.mylyn.bugzilla.core; bundle-version="3.24.2.v20180905-0003"; singleton:="true"
+       org.eclipse.mylyn.bugzilla.core [268]
+         Unresolved requirement: Require-Bundle: org.eclipse.mylyn.commons.xmlrpc; bundle-version="[3.8.0,4.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.mylyn.commons.xmlrpc; bundle-version="3.24.2.v20180904-2231"; singleton:="true"
+              org.eclipse.mylyn.commons.xmlrpc [285]
+                Unresolved requirement: Require-Bundle: org.apache.xmlrpc; bundle-version="[3.0.0,4.0.0)"
+                  -> Bundle-SymbolicName: org.apache.xmlrpc; bundle-version="3.0.0.v20100427-1100"
+                     org.apache.xmlrpc [57]
+                       Unresolved requirement: Import-Package: javax.xml.bind
+         Unresolved requirement: Require-Bundle: org.apache.xmlrpc
+           -> Bundle-SymbolicName: org.apache.xmlrpc; bundle-version="3.0.0.v20100427-1100"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:462)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1844)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1837)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1778)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1742)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1664)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.mylyn.commons.xmlrpc 4 0 2021-01-04 18:28:55.534
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.mylyn.commons.xmlrpc [285]
+  Unresolved requirement: Require-Bundle: org.apache.xmlrpc; bundle-version="[3.0.0,4.0.0)"
+    -> Bundle-SymbolicName: org.apache.xmlrpc; bundle-version="3.0.0.v20100427-1100"
+       org.apache.xmlrpc [57]
+         Unresolved requirement: Import-Package: javax.xml.bind
+
+	at org.eclipse.osgi.container.Module.start(Module.java:462)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1844)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1837)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1778)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1742)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1664)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.core.net 1 0 2021-01-04 18:29:38.995
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.mylyn.tasks.core 4 0 2021-01-04 18:29:41.511
+!MESSAGE Unexpected error while loading repository template extensions
+!SUBENTRY 1 org.eclipse.mylyn.tasks.core 4 0 2021-01-04 18:29:41.511
+!MESSAGE Could not load repository template extension contributed by 'org.eclipse.mylyn.bugzilla.ide' with connectorKind 'bugzilla'
+!SESSION 2021-03-01 23:24:03.174 -----------------------------------------------
+eclipse.buildId=4.14.0.I20191210-0610
+java.version=13.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_CA
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/muchderek/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/muchderek/.eclipse_keyring
+
+!ENTRY org.eclipse.mylyn.bugzilla.core 4 0 2021-03-01 23:24:04.468
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.mylyn.bugzilla.core [268]
+  Unresolved requirement: Require-Bundle: org.eclipse.mylyn.commons.xmlrpc; bundle-version="[3.8.0,4.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.mylyn.commons.xmlrpc; bundle-version="3.24.2.v20180904-2231"; singleton:="true"
+       org.eclipse.mylyn.commons.xmlrpc [285]
+         Unresolved requirement: Require-Bundle: org.apache.xmlrpc; bundle-version="[3.0.0,4.0.0)"
+           -> Bundle-SymbolicName: org.apache.xmlrpc; bundle-version="3.0.0.v20100427-1100"
+              org.apache.xmlrpc [57]
+                Unresolved requirement: Import-Package: javax.xml.bind
+  Unresolved requirement: Require-Bundle: org.apache.xmlrpc
+    -> Bundle-SymbolicName: org.apache.xmlrpc; bundle-version="3.0.0.v20100427-1100"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:462)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1844)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1837)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1778)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1742)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1664)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.mylyn.bugzilla.ui 4 0 2021-03-01 23:24:04.503
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.mylyn.bugzilla.ui [270]
+  Unresolved requirement: Require-Bundle: org.eclipse.mylyn.bugzilla.core; bundle-version="[3.8.0,4.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.mylyn.bugzilla.core; bundle-version="3.24.2.v20180905-0003"; singleton:="true"
+       org.eclipse.mylyn.bugzilla.core [268]
+         Unresolved requirement: Require-Bundle: org.eclipse.mylyn.commons.xmlrpc; bundle-version="[3.8.0,4.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.mylyn.commons.xmlrpc; bundle-version="3.24.2.v20180904-2231"; singleton:="true"
+              org.eclipse.mylyn.commons.xmlrpc [285]
+                Unresolved requirement: Require-Bundle: org.apache.xmlrpc; bundle-version="[3.0.0,4.0.0)"
+                  -> Bundle-SymbolicName: org.apache.xmlrpc; bundle-version="3.0.0.v20100427-1100"
+                     org.apache.xmlrpc [57]
+                       Unresolved requirement: Import-Package: javax.xml.bind
+         Unresolved requirement: Require-Bundle: org.apache.xmlrpc
+           -> Bundle-SymbolicName: org.apache.xmlrpc; bundle-version="3.0.0.v20100427-1100"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:462)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1844)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1837)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1778)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1742)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1664)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.mylyn.commons.xmlrpc 4 0 2021-03-01 23:24:04.515
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.mylyn.commons.xmlrpc [285]
+  Unresolved requirement: Require-Bundle: org.apache.xmlrpc; bundle-version="[3.0.0,4.0.0)"
+    -> Bundle-SymbolicName: org.apache.xmlrpc; bundle-version="3.0.0.v20100427-1100"
+       org.apache.xmlrpc [57]
+         Unresolved requirement: Import-Package: javax.xml.bind
+
+	at org.eclipse.osgi.container.Module.start(Module.java:462)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1844)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1837)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1778)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1742)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1664)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.core.net 1 0 2021-03-01 23:24:10.646
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.mylyn.tasks.core 4 0 2021-03-01 23:24:13.229
+!MESSAGE Unexpected error while loading repository template extensions
+!SUBENTRY 1 org.eclipse.mylyn.tasks.core 4 0 2021-03-01 23:24:13.229
+!MESSAGE Could not load repository template extension contributed by 'org.eclipse.mylyn.bugzilla.ide' with connectorKind 'bugzilla'
+!SESSION 2021-03-03 14:51:35.908 -----------------------------------------------
+eclipse.buildId=4.14.0.I20191210-0610
+java.version=13.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_CA
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/muchderek/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/muchderek/.eclipse_keyring
+
+!ENTRY org.eclipse.mylyn.bugzilla.core 4 0 2021-03-03 14:51:37.597
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.mylyn.bugzilla.core [268]
+  Unresolved requirement: Require-Bundle: org.eclipse.mylyn.commons.xmlrpc; bundle-version="[3.8.0,4.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.mylyn.commons.xmlrpc; bundle-version="3.24.2.v20180904-2231"; singleton:="true"
+       org.eclipse.mylyn.commons.xmlrpc [285]
+         Unresolved requirement: Require-Bundle: org.apache.xmlrpc; bundle-version="[3.0.0,4.0.0)"
+           -> Bundle-SymbolicName: org.apache.xmlrpc; bundle-version="3.0.0.v20100427-1100"
+              org.apache.xmlrpc [57]
+                Unresolved requirement: Import-Package: javax.xml.bind
+  Unresolved requirement: Require-Bundle: org.apache.xmlrpc
+    -> Bundle-SymbolicName: org.apache.xmlrpc; bundle-version="3.0.0.v20100427-1100"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:462)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1844)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1837)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1778)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1742)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1664)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.mylyn.bugzilla.ui 4 0 2021-03-03 14:51:37.601
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.mylyn.bugzilla.ui [270]
+  Unresolved requirement: Require-Bundle: org.eclipse.mylyn.bugzilla.core; bundle-version="[3.8.0,4.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.mylyn.bugzilla.core; bundle-version="3.24.2.v20180905-0003"; singleton:="true"
+       org.eclipse.mylyn.bugzilla.core [268]
+         Unresolved requirement: Require-Bundle: org.eclipse.mylyn.commons.xmlrpc; bundle-version="[3.8.0,4.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.mylyn.commons.xmlrpc; bundle-version="3.24.2.v20180904-2231"; singleton:="true"
+              org.eclipse.mylyn.commons.xmlrpc [285]
+                Unresolved requirement: Require-Bundle: org.apache.xmlrpc; bundle-version="[3.0.0,4.0.0)"
+                  -> Bundle-SymbolicName: org.apache.xmlrpc; bundle-version="3.0.0.v20100427-1100"
+                     org.apache.xmlrpc [57]
+                       Unresolved requirement: Import-Package: javax.xml.bind
+         Unresolved requirement: Require-Bundle: org.apache.xmlrpc
+           -> Bundle-SymbolicName: org.apache.xmlrpc; bundle-version="3.0.0.v20100427-1100"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:462)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1844)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1837)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1778)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1742)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1664)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.mylyn.commons.xmlrpc 4 0 2021-03-03 14:51:37.602
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.mylyn.commons.xmlrpc [285]
+  Unresolved requirement: Require-Bundle: org.apache.xmlrpc; bundle-version="[3.0.0,4.0.0)"
+    -> Bundle-SymbolicName: org.apache.xmlrpc; bundle-version="3.0.0.v20100427-1100"
+       org.apache.xmlrpc [57]
+         Unresolved requirement: Import-Package: javax.xml.bind
+
+	at org.eclipse.osgi.container.Module.start(Module.java:462)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1844)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1837)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1778)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1742)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1664)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.core.net 1 0 2021-03-03 14:51:44.496
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.mylyn.tasks.core 4 0 2021-03-03 14:51:48.016
+!MESSAGE Unexpected error while loading repository template extensions
+!SUBENTRY 1 org.eclipse.mylyn.tasks.core 4 0 2021-03-03 14:51:48.016
+!MESSAGE Could not load repository template extension contributed by 'org.eclipse.mylyn.bugzilla.ide' with connectorKind 'bugzilla'
